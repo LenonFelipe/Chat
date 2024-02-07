@@ -9,9 +9,11 @@
         body{
             margin: 0;
             padding-bottom: 3rem;
+            background: #c4c4c4;
         }
         #form{
-            background: rgba(0,0,0,0.15);
+            background: #4d699e;
+            font-size: 20px;
             padding: 0.25rem;
             position: fixed;
             bottom: 0;
@@ -28,16 +30,18 @@
             flex-grow: 1;
             border-radius: 2rem;
             margin: 0.25rem;
+            text-indent: 10px;
+            font-size: 20px;
         }
         #input:focus{
             outline: none;
         }
         #form > button{
-            background: #333;
+            background: #000;
             border: none;
             padding: 0 1rem;
             margin: 0.25rem;
-            border-radius: 3px;
+            border-radius: 10px;
             outline: none;
             color: #fff;
         }
@@ -53,25 +57,30 @@
         }
         #message > li{
             padding: 0.5rem 1rem;
+            position: relative;
+            font-size: 30px;
         }
         #message > li:nth-child(odd) {
             background: #efefef;
         }
+        span{
+            color: #7e7e7e;
+        }
     </style>
 </head>
 <body>
-   <ul id="messages">
-    <li>Text</li>
+   <ul id="message">
+    <li><strong>Chat: </strong> <span>Mande sua mensagem</span></li>
    </ul>
    <form action="" id="form">
     <input autocomplete="off" id="input" /><button>Send</button>
    </form>
 
    <script src="/socket.io/socket.io.js"></script>
-   
+
    <script>
     var socket = io();
-    const message = document.getElementById("messages");
+    const message = document.getElementById("message");
     const input = document.getElementById("input");
 
 
