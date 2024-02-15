@@ -6,6 +6,15 @@
 
 <h3 align="center">O que é SOCKET.IO</h3>
 
-<p align="center">Socket.IO é uma biblioteca orientada a eventos para aplicativos da Web em tempo real. Ele permite a comunicação bidirecional em tempo real entre clientes e servidores da Web. Consiste em dois componentes: um cliente e um servidor. Ambos os componentes têm uma API quase idêntica.</p>
+<p align="center">Socket.IO é uma biblioteca orientada a eventos para aplicativos da Web em tempo real. Ele permite a comunicação bidirecional em tempo real entre clientes e servidores da Web. Consiste em dois componentes: um cliente e um servidor. Ambos os componentes têm uma API quase idêntica. Caso queira saber mais sobre socket.io, acesse o link: https://socket.io/pt-br/docs/v4/</p>
 
-<h2 align="center"></h2>
+<h2 align="center">Dependências e como rodar o projeto na sua máquina</h2>
+
+<p align="center">Nesse projeto precisaremos do express, typescript e socket.io</p>
+
+<p align="center">Primeiro clone esse repositório na sua máquina, depois instale as dependências </p>
+<p align="center">rode os seguintes códigos: </p>
+<p align="center">$ npm install express</p>
+<p align="center">$ npm install -D typescript</p>
+<p align="center">$ npm install socket.io ou</p>
+<p align="center">$ yarn install socket.io</p>
