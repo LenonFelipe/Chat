@@ -21,4 +21,4 @@
 
 <p align="center">Depois dessas etapas, no terminal, entre na pasta do projeto e rode o seguinte código: npm run dev, abra seu navegador, no localhost:3000, abra um segundo navegador no mesmo endereço. Mande mensagem e ela aparecerá nos dois navegadores, assim como num chat</p>
 
-<h1>Espero que goste</h1>
+<h1 align="center">Espero que goste</h1>
