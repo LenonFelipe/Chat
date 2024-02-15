@@ -10,11 +10,13 @@
 
 <h2 align="center">Dependências e como rodar o projeto na sua máquina</h2>
 
-<p align="center">Nesse projeto precisaremos do express, typescript e socket.io</p>
+<p align="center">Nesse projeto precisaremos do express, typescript e socket.io e caso não tenho NODE, Baixe-o neste link: https://nodejs.org/en/download/current</p>
 
-<p align="center">Primeiro clone esse repositório na sua máquina, depois instale as dependências </p>
-<p align="center">rode os seguintes códigos: </p>
+<p align="center">Primeiro clone esse repositório na sua máquina, depois instale as dependências</p>
+<p align="center">rode os seguintes códigos no terminal: </p>
 <p align="center">$ npm install express</p>
 <p align="center">$ npm install -D typescript</p>
 <p align="center">$ npm install socket.io ou</p>
 <p align="center">$ yarn install socket.io</p>
+
+<p align="center"></p>
