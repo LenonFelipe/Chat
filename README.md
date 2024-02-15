@@ -10,7 +10,7 @@
 
 <h2 align="center">Dependências e como rodar o projeto na sua máquina</h2>
 
-<p align="center">Nesse projeto precisaremos do express, typescript e socket.io e caso não tenho NODE, Baixe-o neste link: https://nodejs.org/en/download/current</p>
+<p align="center">Nesse projeto precisaremos do express, typescript e socket.io e caso não tenho NODE.JS, Baixe-o neste link: https://nodejs.org/en/download/current</p>
 
 <p align="center">Primeiro clone esse repositório na sua máquina, depois instale as dependências</p>
 <p align="center">rode os seguintes códigos no terminal: </p>
@@ -19,4 +19,6 @@
 <p align="center">$ npm install socket.io ou</p>
 <p align="center">$ yarn install socket.io</p>
 
-<p align="center"></p>
+<p align="center">Depois dessas etapas, no terminal, entre na pasta do projeto e rode o seguinte código: npm run dev, abra seu navegador, no localhost:3000, abra um segundo navegador no mesmo endereço. Mande mensagem e ela aparecerá nos dois navegadores, assim como num chat</p>
+
+<h1>Espero que goste</h1>
