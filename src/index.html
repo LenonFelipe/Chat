@@ -80,22 +80,23 @@
 
    <script>
     var socket = io();
-    const message = document.getElementById("message");
+    const message = document.getElementById("message"); 
     const input = document.getElementById("input");
 
+    //Capturando o texto com o evento submit 
 
     document.addEventListener("submit", (e) => {
-        e.preventDefault();
-        if(input.value){
-            socket.emit("message", input.value);
-            input.value = " "
+        e.preventDefault();                         //Pra nao atualizar a tela a cada submit
+        if(input.value){                            //Verificação, caso tenha algo dentro do imput
+            socket.emit("message", input.value);    //Pega esse valor e emita
+            input.value = " "                       //Para  limpar o imput a cada submit
         };
     });
 
-    socket.on("message", (msg) => {
-        const li = document.createElement("li");
-        li.textContent = msg;
-        message.appendChild(li);
+    socket.on("message", (msg) => {                 //Ouvindo evento criado la no servidor
+        const li = document.createElement("li");    //Após ouvir o evento será criado um elemento em tela 
+        li.textContent = msg;                       //Após criar o LI será atribuido a ele o conteudo do evento
+        message.appendChild(li);                    //Atribuindo evento ao final da UL
     });
    </script>
 </body>
