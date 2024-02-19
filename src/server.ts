@@ -15,6 +15,8 @@ class App{
         this.setupRoutes()
         
     }
+
+    // Será chamado assim que instanciar a classe app
     listenServer(){
         this.http.listen(3000, () => {
             console.log("Server is running")
@@ -37,6 +39,6 @@ class App{
     }
 }
 
-const app = new App()
+const app = new App() // Nova instancia do app
 
-app.listenServer()
+app.listenServer() // Para iniciar o servidor 
