@@ -1,24 +1,111 @@
-<h1 align="center">CHAT FEITO COM SOCKET.IO</h1>
+# 💬 Real-Time Chat with Socket.IO
 
-<h2 align="center">Descrição do projeto </h2>
+A simple but exciting real-time chat project using **Socket.IO**, **Express**, and **TypeScript**.
 
-<p align="center">Um projeto simples, mas de qualquer forma achei muito bacana conseguir criar um chat. Onde aprendi um pouco mais sobre as funcionalidades do express, aprendi a utilizar o socket.io e brinquei um pouco com typescript. Ainda faltam algumas modificações, corrigir alguns erros, mas o corpo e alma do projeto estão ai!</p>
+---
 
-<h3 align="center">O que é SOCKET.IO</h3>
+## 📄 Project Description
 
-<p align="center">Socket.IO é uma biblioteca orientada a eventos para aplicativos da Web em tempo real. Ele permite a comunicação bidirecional em tempo real entre clientes e servidores da Web. Consiste em dois componentes: um cliente e um servidor. Ambos os componentes têm uma API quase idêntica. Caso queira saber mais sobre socket.io, acesse o link: https://socket.io/pt-br/docs/v4/</p>
+This project is a basic implementation of a real-time chat system. Although simple, it was a valuable learning experience where I explored:
 
-<h2 align="center">Dependências e como rodar o projeto na sua máquina</h2>
+- Socket.IO for real-time, bidirectional communication
+- Express.js for building the backend server
+- TypeScript for stronger typing and cleaner code
 
-<p align="center">Nesse projeto precisaremos do express, typescript e socket.io e caso não tenho NODE.JS, Baixe-o neste link: https://nodejs.org/en/download/current</p>
+There are still some improvements and minor bug fixes to be made, but the **core structure and functionality are working well**.
 
-<p align="center">Primeiro clone esse repositório na sua máquina, depois instale as dependências</p>
-<p align="center">rode os seguintes códigos no terminal: </p>
-<p align="center">$ npm install express</p>
-<p align="center">$ npm install -D typescript</p>
-<p align="center">$ npm install socket.io ou</p>
-<p align="center">$ yarn install socket.io</p>
+---
 
-<p align="center">Depois dessas etapas, no terminal, entre na pasta do projeto e rode o seguinte código: npm run dev, abra seu navegador, no localhost:3000, abra um segundo navegador no mesmo endereço. Mande mensagem e ela aparecerá nos dois navegadores, assim como num chat</p>
+## 📡 What is Socket.IO?
 
-<h4 align="center">Espero que goste!</h4>
+**Socket.IO** is an event-driven JavaScript library for real-time web applications.  
+It enables real-time, bidirectional communication between web clients and servers.
+
+It has two main components:
+
+- A server-side library for Node.js
+- A client-side library that runs in the browser
+
+To learn more about Socket.IO, visit the [official documentation](https://socket.io/pt-br/docs/v4/).
+
+---
+
+## 🛠️ Technologies Used
+
+- Node.js
+- Express.js
+- Socket.IO
+- TypeScript
+
+---
+
+## 🚀 How to Run the Project
+
+### 🔧 Prerequisites
+
+- [Node.js](https://nodejs.org/en/download/current) installed on your machine
+
+---
+
+### 📥 Installation Steps
+
+1. **Clone the repository:**
+
+```bash
+git clone https://github.com/your-username/your-repo-name.git
+cd your-repo-name
+```
+
+2. **Install dependencies:**
+
+```bash
+npm install
+```
+
+Or if you're using Yarn:
+
+```bash
+yarn
+```
+
+3. **(Optional) Install packages manually:**
+
+```bash
+npm install express socket.io
+npm install -D typescript
+```
+
+4. **Start the development server:**
+
+```bash
+npm run dev
+```
+
+---
+
+## 🧪 Testing the Chat
+
+1. Open your browser and navigate to:  
+   [http://localhost:3000](http://localhost:3000)
+
+2. Open the same URL in a second browser window or a different device.
+
+3. Send a message in one window — it should appear in real-time in both!
+
+🎉 You now have a working real-time chat app!
+
+---
+
+## 📌 Final Notes
+
+This project is a great starting point for learning how real-time communication works using Socket.IO and how to combine it with Express and TypeScript.
+
+---
+
+## 🧑‍💻 Author
+
+Made with ❤️ by Lenon Felipe  
+Feel free to reach out or fork this project!
+
+---
+
