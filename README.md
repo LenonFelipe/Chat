@@ -1,6 +1,6 @@
 # 💬 Real-Time Chat with Socket.IO
 
-A simple but exciting real-time chat project using **Socket.IO**, **Express**, and **TypeScript**.
+An exciting real-time chat project using **Socket.IO**, **Express**, and **TypeScript**.
 
 ---
 
